@@ -1,3 +1,11 @@
+.navbar-brand{
+    color: white;
+}
+
+a.nav-link{
+    color: white;
+}
+
 .raccoonimg{
     height: 100vh;
     background: url(/images/raccoon.jpg);
@@ -22,10 +30,37 @@
     color: white;
 }
 
-.navbar-toggler-icon{
-    color: white;
+.imageAboutPage{
+    width: 100%;
 }
 
-.navbar-brand{
-    color: white;
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.hero_title:hover{
+    color: rgb(204, 32, 118);
+}
+
+.hero_desc:hover{
+    color: rgb(100, 28, 201);
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
 }
