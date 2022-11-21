@@ -9,3 +9,14 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+
+$("#navbar-toggler").click(function() {
+    $("#navbarScroll").toggle("slide");
+     return false;
+  });
+  
+  $(window).click(function() {
+    if ($("#navbarScroll").is(":visible")) {
+      $("#navbarScroll").toggle("slide");
+    }
+  });
