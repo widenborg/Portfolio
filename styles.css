@@ -2,6 +2,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Raleway';
     letter-spacing: 1px;
+    font-size: 300px;
 }
 
 a.nav-link{
@@ -45,7 +46,7 @@ a.nav-link{
     color: #0bf039;
 }
 .fab {
-    color: #000000;
+    color: #ffffff;
 }
 
 #footer {
@@ -61,8 +62,9 @@ a.nav-link{
     padding-bottom: 4rem;
 }
 
-.fa-bars{
+.fa-navicon{
 color:aliceblue;
+transform: scale(1.5,1);
 }
 
 
@@ -167,6 +169,6 @@ p {
     height:30vh;
   }
   .H1 {
-    font-size:40px;
+    font-size:64px;
   }
 }
