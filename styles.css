@@ -1,16 +1,3 @@
-.navbar-brand{
-    color: rgb(255, 255, 255);
-    font-family: 'Raleway';
-    letter-spacing: 1px;
-    font-size: 300px;
-}
-
-a.nav-link{
-    color: rgb(255, 255, 255);
-    font-family: 'Raleway';
-    letter-spacing: 1px;
-}
-
 .imageAboutPage{
     width: 100%;
 }
@@ -44,10 +31,6 @@ text-align: center;
     border: 1px solid #008000;
 }
 
-.navbarScroll.navbarDark {
-    background-color: #808080;
-}
-
 .social-icons {
     font-size: 36px;
     cursor: pointer;
@@ -64,7 +47,7 @@ text-align: center;
     text-align: center;
 }
 
-#about, #services, #portfolio, #contact {
+#about, #services, #portfolio, #contact, #header {
     margin-top: 4rem;
     padding-top: 4rem;
 }
@@ -74,14 +57,14 @@ text-align: center;
 
 .fa-navicon{
 color:aliceblue;
-transform: scale(1.5,1);
+transform: scale(2,1);
 }
 
 
 
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap);
 
-#about, #services, #portfolio, #contact{
+#about, #services, #portfolio, #contact, #header{
     font-family: 'Raleway';
 }
 body {
@@ -93,6 +76,13 @@ body {
   font-weight:300;
   letter-spacing: 1px;
   font-size:100px;
+}
+
+.H2 {
+  font-family: 'Raleway';
+  font-weight:300;
+  letter-spacing: 1px;
+  font-size:40px;
 }
 
 p {
@@ -182,4 +172,72 @@ p {
   .H1 {
     font-size:64px;
   }
+
+  .H2{
+    font-size: 30px;
+  }
 }
+
+nav {
+  width: 270px;
+  background: rgb(255, 255, 255);                                                                                                                                                       
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-clip-path: circle(24px at 30px 24px);
+  clip-path: circle(28px at 37px 30px);
+  -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+  transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+}
+
+nav:hover {
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  -webkit-clip-path: circle(390px at 225px 24px);
+  clip-path: circle(390px at 150px 24px);
+}
+
+#allan {
+  display: block;
+  line-height: 50px;
+  padding: 0 20px;
+  color: inherit;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Raleway;
+}
+
+#allan:hover { background: #6a9a63; }
+
+#allan:active { background: #000000; }
+
+.navicon {
+  padding: 23px 15px;
+  cursor: pointer;
+  -webkit-transform-origin: 32px 24px;
+  -ms-transform-origin: 32px 24px;
+  transform-origin: 32px 24px;
+}
+
+.navicon div {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+}
+
+.navicon div:before, .navicon div:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+  position: absolute;
+}
+
+.navicon div:before { top: -7px; }
+
+.navicon div:after { top: 7px; }

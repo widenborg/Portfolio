@@ -12,21 +12,19 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
     <div class="container">
-    <script src="script.js"></script>
-        <a class="navbar-brand" href="#">Emil Widenborg</a>
-        
-        <div class="dropdown">
-            <a class="btn" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-               <i class="fa fa-navicon" style="font-size:33px"> </i>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Home</a></li>
-              <li><a class="dropdown-item" href="#about">About</a></li>
-              <li><a class="dropdown-item" href="#services">Skills</a></li>
-              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
-            </ul>
-          </div>
+        <script src="script.js"></script>
+        <nav>
+            <div class="navicon">
+              <div></div>
+            </div>
+          
+            <a href="#about" id="allan" style="text-decoration:none">About me</a>
+            <a href="#services" id="allan" style="text-decoration:none">Skills</a>
+            <a href="#portfolio" id="allan" style="text-decoration:none">Portfolio</a>
+            <a href="#contact" id="allan" style="text-decoration:none">Contact me</a>
+            <a href="https://github.com/widenborg" id="allan" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Github</a>
+            <a href="https://www.linkedin.com/in/emil-widenborg-66793a1b5/" id="allan" target="_blank" rel="noopener noreferrer" style="text-decoration:none">LinkedIn</a>
+          </nav>
     </div>
 </nav>
 
@@ -42,11 +40,10 @@ of Simple CSS Waves-->
 <div class="header">
     <!--Content before waves-->
     <div class="main-header good">
-        <body>
-            
-     
+        <div>
     <h1 class="H1">Emil Widenborg</h1>
-</body>
+    <h2 class="H2">Aspiring programmer</h2>
+</div>
     </div>
     
     <!--Waves Container-->
@@ -146,7 +143,7 @@ of Simple CSS Waves-->
             <div class="col-lg-4 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <i class='fas servicesIcon fa-cloud'></i>
+                        <i class='fas servicesIcon fa-globe'></i>
                         <h4 class="card-title mt-3">Website dev</h4>
                         <p class="card-text mt-3">Website development with HTML, JavaScript, and CSS is what I used to create
                             this portfolio for myself.<br><br>
@@ -187,7 +184,7 @@ of Simple CSS Waves-->
             <div class="col-lg-4 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <i class="fas servicesIcon fa-sitemap"></i>
+                        <i class="fas servicesIcon fa-comments"></i>
                         <h4 class="card-title mt-3">Scrum</h4>
                         <p class="card-text mt-3">
                             During our program we have been taught agile methods of working, such as scrum
@@ -285,8 +282,8 @@ of Simple CSS Waves-->
     <div class="container-fluid">
         <!-- social media icons -->
         <div class="social-icons mt-4">
-            <a href="https://github.com/widenborg" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/emil-widenborg-66793a1b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a id="fa-github" href="https://github.com/widenborg" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a id="fa-linkedin" href="https://www.linkedin.com/in/emil-widenborg-66793a1b5/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
 </footer>
