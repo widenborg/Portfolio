@@ -24,11 +24,21 @@ a.nav-link{
     text-align: center;
     width: 100%;
 }
-.card-title {
+.card-title, .card-text {
     text-align: center;
 }
 .card:hover .servicesIcon {
     color: #008000;
+}
+
+.under-header-portfolio{
+text-align: center;
+}
+
+.card-img-top{
+  margin:auto;
+  max-width:60%;
+  max-height:40%;
 }
 .servicesText:hover {
     border: 1px solid #008000;
@@ -159,6 +169,7 @@ p {
     transform: translate3d(85px,0,0);
   }
 }
+
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
