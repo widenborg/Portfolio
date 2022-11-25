@@ -2,11 +2,11 @@
     width: 100%;
 }
 
-.servicesText.card {
+.skillsText.card {
     height: 280px;
     cursor: pointer;
   }
-.servicesIcon {
+.skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -14,7 +14,7 @@
 .card-title, .card-text {
     text-align: center;
 }
-.card:hover .servicesIcon {
+.card:hover .skillsIcon {
     color: #008000;
 }
 
@@ -27,7 +27,7 @@ text-align: center;
   max-width:60%;
   max-height:40%;
 }
-.servicesText:hover {
+.skillsText:hover {
     border: 1px solid #008000;
 }
 
@@ -47,7 +47,7 @@ text-align: center;
     text-align: center;
 }
 
-#about, #services, #portfolio, #contact, #header {
+#about, #skills, #portfolio, #contact, #header {
     margin-top: 4rem;
     padding-top: 4rem;
 }
@@ -64,7 +64,7 @@ transform: scale(2,1);
 
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap);
 
-#about, #services, #portfolio, #contact, #header{
+#about, #skills, #portfolio, #contact, #header{
     font-family: 'Raleway';
 }
 body {
